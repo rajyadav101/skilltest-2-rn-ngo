@@ -29,7 +29,7 @@ const AuthNavigator = createStackNavigator({
     Login: Login
 });
 
-//Main Navigaitor to switch it accordingly
+//Main Navigaitor
 const MainNavigator = createSwitchNavigator(
     {
         AuthLoadingScreen: AuthLoadingScreen,
